@@ -2,7 +2,8 @@ login: &login
   adapter: postgresql
   host: localhost
   port: 5432
-  username: donal
+  username: publify
+  username: publify
 
 connection: &connection
   encoding: unicode

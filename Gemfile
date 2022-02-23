@@ -22,6 +22,9 @@ gem "uglifier", ">= 1.3.0"
 # Needed for the lightbox and flickr text filters
 gem "flickraw", "~> 0.9.8", require: false
 
+gem "amazing_print"
+gem "rails_semantic_logger"
+
 gem "non-digest-assets", "~> 2.0"
 gem "rake", "~> 13.0"
 gem "reverse_markdown", "~> 2.0"
