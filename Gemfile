@@ -4,9 +4,7 @@ source "https://rubygems.org"
 
 gem "rails", ["~> 6.1.4"]
 
-gem "mysql2"
 gem "pg"
-gem "sqlite3", "~> 1.4.0"
 
 # Store sessions in the database
 gem "activerecord-session_store", "~> 2.0.0"
