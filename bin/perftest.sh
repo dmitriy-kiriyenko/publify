@@ -22,7 +22,7 @@ echo $res
 val=`echo $res | cut -f2 -d' '`
 tot=`echo "scale=3;${tot}+${val}" | bc`
 let i=i-1
-./usleep 1000
+sleep 0.001
 done
 
 avg=`echo "scale=3; ${tot}/${count}" |bc`
