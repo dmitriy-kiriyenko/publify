@@ -79,6 +79,7 @@ group :test do
   gem "rails-controller-testing", "~> 1.0.1"
   gem "timecop", "~> 0.9.0"
   gem "webmock", "~> 3.3"
+  gem 'benchmark-ips'
 end
 
 # Install gems from each theme
