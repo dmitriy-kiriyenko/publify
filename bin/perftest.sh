@@ -5,7 +5,7 @@ echo "Usage:  $0 url count"
 echo "Example: $0 http://mytestserver.net:81/hello.html 10";
 }
 
-if [ $# -ne 4 ]; then
+if [ $# -ne 2 ]; then
 usage;
 exit;
 fi
