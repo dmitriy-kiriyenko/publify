@@ -16,6 +16,7 @@ echo "gem: --no-document" > ~/.gemrc
 gem install bundler
 bundle install
 
+sudo -u postgres createuser -s -i -d -r -l -w publify
 sudo -u postgres psql -c "ALTER ROLE publify WITH PASSWORD 'publify';"
 
 bundle exec rake db:setup db:migrate db:seed
